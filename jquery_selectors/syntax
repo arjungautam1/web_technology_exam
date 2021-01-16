@@ -1,0 +1,7 @@
+Basic systax is : $(selector).action()
+$-> define /access jQuery
+A(selector) to "query (or find ) " HTML elements 
+A jQuery action() to be performed on the elements(s)
+
+$(this).hide()
+$("p").hide()
