@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <?php
-setcookie("user","",time()-3600);
+setcookie("user", "", time() - 3600);
 ?>
+
 <body>
-<?php
+    <?php
 
-echo "Cookie 'user' is deleted.";
+    echo "Cookie 'user' is deleted.";
 
-?>
+    ?>
 </body>
 
 </html>
