@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script>
-            function validateForm(){
-                var x=document.forms["myForm"]["name"].value;
-                if(x.length<=5){
-                    alert("Name must be greater than 5");
-                    return false;
-                }
-               document.write("Name is "+x);
-            }
-        </script>
-    </head>
-    <body>
-        <form name="myForm" onsubmit="return validateForm()">
-        Enter the name :
-        <input type="text" name="name"> 
+  <head>
+    <script type="text/javascript" src="validate.js"></script>
+  </head>
+  <body>
+    <form name="myForm" onsubmit="return validateForm()">
+      Enter the name :
+      <input type="text" name="name" />
 
-        <input type="submit" value="submit">
+      <input type="submit" value="submit" />
     </form>
-
-        
-        
-    </body>
+  </body>
 </html>
