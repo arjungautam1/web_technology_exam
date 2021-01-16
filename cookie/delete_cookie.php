@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
 <?php
 setcookie("user", "", time() - 3600);
 ?>
 
+<html>
 <body>
     <?php
 
@@ -11,5 +10,4 @@ setcookie("user", "", time() - 3600);
 
     ?>
 </body>
-
 </html>
