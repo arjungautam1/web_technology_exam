@@ -1,0 +1,24 @@
+XML schema is a language which is used for expressing
+constraint about xml documents . 
+
+//name.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<name xsi:schema location ="name.xsd">
+    <first_name>Arjun</first_name>
+    <last_name>Gautam</last_name>
+</name>
+
+//name.xsd
+
+<?xml version="1.0" encoding="UTF=8"?>
+<xs:schema xmlns:xs="http://www.google.com">
+<xs:element name="name">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="first_name" type="xs:string"/>
+            <xs:element name"last_name" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
